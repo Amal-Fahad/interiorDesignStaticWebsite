@@ -1,0 +1,283 @@
+@media (max-width: 1343px) {
+    .block-num {
+        font-weight: bold;
+        font-size: 30px ;
+        padding: 10px;
+    }
+}
+@media (max-width:880px) {
+    .block-num {
+        font-weight: bold;
+        font-size: 20px ;
+        padding: 10px;
+    }
+    .menu ul li {
+        margin-top: 20px;
+    }
+    a {
+       font-size: 15px;
+    }
+    .page-title {
+        font-size: 40px;
+        padding: 120px;
+        letter-spacing: 8px;
+    }
+    .description, .title{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+    @media (max-width:810px) {
+        .block-label {
+            font-weight: lighter;
+            font-size: 15px ;
+            padding: 5px;
+        }
+        .flex-block{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .why-us-flex-item {
+            background: goldenrod;
+            color: #ffffff;
+            width: 40%;
+            padding: 20px;
+            margin: 10px;
+        }
+        .design img {
+            height: 15%;
+            max-width: 40%;
+            margin: 10px;
+        }
+        .appointment-text {
+            padding: 200px 20px;
+            font-size: 30px;
+            font-variant: small-caps;
+            background: rgba(0, 0,0, 0.5);
+        }
+        .appointment-form {
+            padding: 10px;
+        }
+        .appointment-form input, textarea {
+                width: 60%;
+                max-width: 60%;
+                padding: 10px;
+                margin-bottom: 20px;
+                outline: none;
+                text-align: center;
+                font-size: 10px;
+        }
+        .appointment-form textarea {
+            height: 90px;
+            max-height: 100px;
+            max-width: 60%;
+            overflow-y: scroll;
+        }
+        .appoint-btn {
+            border: 2px solid #ffffff;
+            background: transparent;
+            color: white;
+            padding: 10px;
+            outline: none;
+        }
+}
+
+    @media (max-width:750px) {
+        .page-title {
+            text-align: center;
+            font-size: 30px;
+            padding: 100px;
+            color: #ffffff;
+            letter-spacing: 7px;
+            text-shadow: 0 0 10px gold;
+            background: rgba(0, 0,0, 0.5);
+        }
+        .description, .title{
+            font-variant: small-caps;
+            font-size: 15px;
+            margin: 10px;
+        }
+        .title {
+            letter-spacing: 10px;
+            color: goldenrod;
+            font-size: 25px;
+        }
+        .btn{
+            padding: 10px 10px;
+        }
+        
+    }
+    @media (max-width:710px) {
+
+         .why-us-flex-item {
+            background: goldenrod;
+            color: #ffffff;
+            width: 80%;
+            font-size: 20px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .design img {
+            height: 15%;
+            max-width: 80%;
+            margin: 10px;
+        }
+
+        /* ........................ */
+        label #btn {
+            display: block;
+            position: absolute;
+            right: 20px;
+            z-index: 1;
+        }
+        .menu ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 80px;
+            background: silver;
+            z-index: 1;
+            text-align: center;
+            right: -100%;
+           
+        }
+        .menu ul li {
+            display: block;
+            font-size: 20px;
+            text-align: center;
+            line-height: 60px;
+        }
+        /* .sticky ul{
+            margin: 0;
+        } */
+        /* #check {
+            display: block;
+        } */
+        #check:checked ~ ul {
+            right: 0;
+        }
+        .sticky {
+            position: inherit;
+        }
+
+    }
+    @media (max-width:650px) {
+        .block-label {
+            font-variant: small-caps;
+            font-size: 20px;
+            margin-bottom: 20px;
+            letter-spacing: 5px;
+        }
+        .block-description {
+            text-align: justify;
+        }
+        .block-num {
+            font-weight: bold;
+            font-size: 50px ;
+            padding: 20px;
+        }
+        .appointment-flex-item {
+            background: gold;
+            color: white;
+            width: 85%;
+            height: 300px;
+            padding: 0px;
+            margin: 0;
+            overflow: hidden;
+        }
+        .appointment-flex-item:last-child{
+            height: 400px;
+        }   
+        .appointment-img {
+            background-image: url(./images/spacejoy-9M66C_w_ToM-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .appointment-text {
+            padding: 100px 20px;
+            font-size: 30px;
+            font-variant: small-caps;
+            background: rgba(0, 0,0, 0.5);
+        }
+        .appointment-form {
+            padding: 20px;
+            /* padding-bottom: 150px; */
+        }
+        .appointment-form input, textarea {
+                width: 90%;
+                max-width: 90%;
+                padding: 10px;
+                margin-bottom: 20px;
+                outline: none;
+                text-align: center;
+                font-size: 20px;
+        }
+        .appointment-form textarea {
+            height: 100px;
+            max-height: 100px;
+            max-width: 60%;
+            overflow-y: scroll;
+        }
+        .appoint-btn {
+            border: 2px solid #ffffff;
+            background: transparent;
+            color: white;
+            padding: 15px;
+            outline: none;
+        }
+        .page-title {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:500px) {
+        .page-title {
+            font-size: 25px;
+        }
+        .page-title:before {
+            top: 0%;
+            height: 100%;
+        }
+        .block-description {
+            font-size: 20px;
+        }
+
+    }
+    @media (max-width:400px){
+        .page-title {
+            font-size: 25px;
+            padding:80px 10px;
+        }
+        .page-title .description{
+            font-size: 10px;
+            padding: 10px 0;
+            letter-spacing: 5px;
+        }
+        label #btn {
+            font-size: 15px;
+        }
+    }
+    @media (max-width:300px){
+        .block-num {
+            font-size: 30px;
+        }
+        .title {
+            font-size: 20px;
+            word-break: break-all;
+        }
+        .appointment-text{
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width:250px){
+        .title {
+            font-size: 12px;
+    }
+    .block-num {
+        font-size: 17px;
+    }
+}

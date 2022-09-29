@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Designers</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body onload="slider ()">
+    <div class="top-background">
+        <div class="menu" id="sticky">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-bars" id="btn"></i>
+                <i class="fa-solid fa-xmark" id="cancel"></i>
+            </label>
+
+            <ul class="menu-ul">
+                <li><a href="">Home</a></li>
+                <li><a href="#our-designs">Our Designs</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+            </ul>
+        </div>
+        <div class="page-title">
+            PLAN DEKLAR
+            <div class="description">Let us make your home HEAVEN</div>
+        </div>
+        <!-- <div class="custom-shape-divider-bottom-1649066923">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div> -->
+        <!-- <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="lightyellow" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,245.3C384,267,480,245,576,213.3C672,181,768,139,864,128C960,117,1056,139,1152,160C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+        </div>
+        <!-- our Design block -->
+        <div class="page-blocks" id="our-designs">
+            <div class="title" data-aos="fade-down">
+                Our Designs
+            </div>
+            <div class="design">
+                <img src="./images/img1 (1).jpg" alt="img" data-aos="zoom-in" />
+                <img src="./images/img1 (2).jpg" alt="img" data-aos="zoom-in" />
+                <img src="./images/mock-up-living-room-interior-with-armchair-empty-dark-blue-wall-wall-background-3d-rendering.jpg" alt="img" data-aos="zoom-in" />
+                <img src="./images/img1 (4).jpg" alt="img" data-aos="zoom-in" />
+                <img src="./images/img1 (5).jpg" alt="img" data-aos="zoom-in" />
+                <img src="./images/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering.jpg" alt="img" data-aos="zoom-in" />
+            </div>
+            <div class="div"><a class="btn">More Designs</a></div>
+        </div>
+
+        <!-- why us block -->
+        <div class="page-blocks" id="why-us">
+            <div class="title" data-aos="zoom-out-left">
+                Why Us
+            </div>
+            <div class="flex-block">
+                <div class="why-us-flex-item" data-aos="fade-up">
+                    <div class="block-label">
+                        Our Projects
+                    </div>
+                    <div class="block-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Blanditiis dignissimos iste minima unde laudantium repellat cupiditate illo,
+                        corrupti voluptatem aliquid ipsa rem quae odio doloremque ex perspiciatis harum, labore aut?
+                    </div>
+                </div>
+                <div class="why-us-flex-item" data-aos="fade-up">
+                    <div class="block-label">
+                        Our Designs
+                    </div>
+                    <div class="block-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Blanditiis dignissimos iste minima unde laudantium repellat cupiditate illo,
+                        corrupti voluptatem aliquid ipsa rem quae odio doloremque ex perspiciatis harum, labore aut?
+                    </div>
+                </div>
+                <div class="why-us-flex-item" data-aos="fade-up">
+                    <div class="block-label">
+                        Our Services
+                    </div>
+                    <div class="block-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Blanditiis dignissimos iste minima unde laudantium repellat cupiditate illo,
+                        corrupti voluptatem aliquid ipsa rem quae odio doloremque ex perspiciatis harum, labore aut?
+                    </div>
+                </div>
+                <div class="why-us-flex-item" data-aos="fade-up">
+                    <div class="block-label">
+                        Finish Projects
+                    </div>
+                    <div class="block-num">
+                        1,471,987
+                    </div>
+                </div>
+                <div class="why-us-flex-item" data-aos="fade-up">
+                    <div class="block-label">
+                        Upcoming Projects
+                    </div>
+                    <div class="block-num">
+                        2,476,987
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appointment block -->
+        <div class="page-blocks" id="appointment">
+            <div class="title" data-aos="fade-right">
+                Appointment
+            </div>
+            <div class="flex-block">
+                <div class="appointment-flex-item" data-aos="fade-right">
+                    <div class="appointment-img">
+                        <div class="appointment-text">
+                            Make An Appointment Today
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment-flex-item" data-aos="fade-left">
+                    <form class="appointment-form">
+                        <input type="text" placeholder="Name"><br />
+                        <input type="number" placeholder="Mobile"><br />
+                        <input type="email" placeholder="Email"><br />
+                        <input type="text" placeholder="City"><br />
+                        <textarea type="text" placeholder="Requirement"></textarea><br />
+                        <button class="appoint-btn">Make An Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer block -->
+        <div class="footer">
+            <div class="locations">
+                <div>KOCHI<br />
+                    <div class="address">1121 Street name<br />city name<br />zip 0000</div>
+                </div>
+            </div>
+            <div class="locations">
+                <div>BANGLORE<br />
+                    <div class="address">1121 Street name<br />city name<br />zip 0000</div>
+                </div>
+            </div>
+            <div class="locations">
+                <div>CHENNAI<br />
+                    <div class="address">1121 Street name<br />city name<br />zip 0000</div>
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+        </div>
+
+        <div class="copyrights"><i class="fa-solid fa-copyright">2021 By Programmers Web Drive</i></div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                // offset:400,
+                duration: 1000,
+            });
+        </script>
+</body>
+
+</html>
